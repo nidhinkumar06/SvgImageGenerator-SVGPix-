@@ -52,5 +52,4 @@ npm run dev
 ```
 ## Demo
 
-Insert gif or link to demo
-
+[![Watch the video](./public/SVGPix-Intro.png)](http://www.youtube.com/watch?v=-xEx591q22A)
