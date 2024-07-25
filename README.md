@@ -1,36 +1,52 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+# SVGPix
 
-First, run the development server:
+FreeAI Textin, SVGout 
+
+Unleash the AI magic! Turn your text into dazzling SVG art for free. No sweat, just pure tech wizardry!Sprinkle AI magic on visuals! Instantly snag unique SVG flair - quick, chic and effortlessly cool.
+
+# Disclaimer
+
+Since i am using the Free version of HuggingFaceInference model it might take some time to generate the result.
+
+# About
+
+Downloading SVG images from third party services might be an easy way but wait what if you don't see the icons that you wish to have in your project or in your poster image.
+
+Well your are not alone in this situation even i too had a similar experience where i can't find the SVG icons/images which i need. So what will we do. We are in the age of AI where we can leverage the power of AI for the things that we want.
+
+# Architecture
+
+
+
+# Tech Stack
+Tech Stack used to build this application is 
+
+* Next.js with TailwindCSS and Shadcn UI
+* HuggingFace Inference API (Free version) TextToImage Model
+* Model (dataautogpt3/OpenDalleV1.1)
+
+## Installation
+
+Ensure you are having Nodejs. Clone the project in your local machine and follow the below instructions.
+
+```bash
+  cd svgimagegenerator
+  npm install
+```
+
+Create a new .env.local file and add your HuggingFace API like below example
+
+```bash
+  HUGGINGFACE_API_KEY=hf_FpwDTyRrHXQOkZhtrhkIHTdrvoDG
+```
+
+Once you done the above 2 steps its time to run the application locally
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
+## Demo
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Insert gif or link to demo
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.

@@ -9,7 +9,7 @@ export const siteMetadata = {
     siteUrl: 'https://svgpix.vercel.app/',
     siteLogo: '/logo.png',
     socialBanner: '/social-banner.png',
-    email: 'nidhin6392ai@gmail.com', 
+    email: '', 
     github: 'https://github.com/nidhinkumar06',
     twitter: 'https://twitter.com',
     facebook: 'https://facebook.com',
