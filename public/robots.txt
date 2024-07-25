@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://svgpix.vercel.app/
+
+# Sitemaps
+Sitemap: https://svgpix.vercel.app/sitemap.xml
