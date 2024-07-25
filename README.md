@@ -1,7 +1,8 @@
+<img src="./public/svgpix.gif" alt="SVGPix" title="SVGPix" align="right" height="250" width="250"/>
 
 # SVGPix
 
-FreeAI Textin, SVGout 
+## FreeAI Textin, SVGout 
 
 Unleash the AI magic! Turn your text into dazzling SVG art for free. No sweat, just pure tech wizardry!Sprinkle AI magic on visuals! Instantly snag unique SVG flair - quick, chic and effortlessly cool.
 
@@ -17,9 +18,12 @@ Well your are not alone in this situation even i too had a similar experience wh
 
 # Architecture
 
+<img src="./public/architecture.png" alt="ArchitectureDiagram" title="SVGPix" align="center" height="5%" width="70%"/>
+
 
 
 # Tech Stack
+
 Tech Stack used to build this application is 
 
 * Next.js with TailwindCSS and Shadcn UI
